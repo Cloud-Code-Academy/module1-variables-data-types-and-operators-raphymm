@@ -7,7 +7,7 @@
 
 @IsTest
 public class VariablesDataTypesOperatorsTest {
-    @IsTest
+    @IsTest 
     static void testAddition() {
         Integer result = VariablesDataTypesOperators.addition(2, 3);
         Assert.areEqual(5, result, 'Incorrect addition result');
