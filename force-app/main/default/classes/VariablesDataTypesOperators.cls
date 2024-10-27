@@ -192,7 +192,7 @@ public with sharing class VariablesDataTypesOperators {
     public static Integer convertMinutesToMilliseconds(Integer minutes) {
         Integer MILLISECONDS_PER_MINUTE = 60000; // Make this value a constant
         Integer milliseconds;
-         milliseconds = minutes * 60000;
+         milliseconds = minutes * MILLISECONDS_PER_MINUTE;
         return milliseconds; // Replace null with the variable you used to store the result
     }    
 
